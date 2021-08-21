@@ -4,8 +4,7 @@ a = 8550867
 TweenService = game:GetService("TweenService")
 whitelisted = {
     ["6VISAA"] = true,
-    ["Silentness"] = true,
-    ["LeqendaryTxl"] = true
+    ["LeqendarTxl"] = true
 }
 
 if whitelisted[game.Players.LocalPlayer.Name] then
