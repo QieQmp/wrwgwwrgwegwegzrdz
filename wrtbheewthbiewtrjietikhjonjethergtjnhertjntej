@@ -1,0 +1,14 @@
+localPlayer = game.Players.LocalPlayer
+
+a = 8550867
+TweenService = game:GetService("TweenService")
+whitelisted = {
+    ["6VISAA"] = true,
+    ["Silentness"] = true
+}
+
+if whitelisted[game.Players.LocalPlayer.Name] then
+    print("Whitelisted")
+else
+    localPlayer:Kick("Funny monkey Niggaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+end
